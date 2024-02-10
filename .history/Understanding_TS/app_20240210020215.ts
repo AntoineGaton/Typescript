@@ -18,6 +18,7 @@ if (typeof userInput === 'string'){
 // this is different from void because void is used when a function does not return anything
 // never is used when a function does not return anything and it does not have an endpoint
 function generateError(message : string, code : number) : never {
+   //
    throw {message : message, errorCode : code};
 }
 
